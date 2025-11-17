@@ -239,8 +239,7 @@ def compare_problems(p_pycutest, p_s2mpj, rtol=1e-9, atol=1e-12):
 
 if __name__ == "__main__":
     pb_names = ['HS67', 'HS68', 'HS69', 'HS85', 'HS88', 'HS89', 'HS90', 'HS91', 'HS92']
-    
-    # 统计结果
+
     all_results = {}
     passed_count = 0
     failed_count = 0
@@ -256,8 +255,7 @@ if __name__ == "__main__":
             passed_count += 1
         else:
             failed_count += 1
-    
-    # 最终总结
+
     print("\n" + "="*60)
     print("FINAL SUMMARY")
     print("="*60)
